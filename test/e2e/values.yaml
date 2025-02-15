@@ -41,6 +41,9 @@ sync:
           "from-host-sync-test/*": "barfoo/*"
           "default/my-cm": "barfoo/cm-my"
           "": "my-new-ns"
+          "my-ns-4/*": "my-ns-4/*"
+          "/my-cm-5": "my-virtual-namespace/my-cm-5"
+          "my-ns-6/test1": "my-ns-6/test1"
     secrets:
       enabled: true
       selector:
